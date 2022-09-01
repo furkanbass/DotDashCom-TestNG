@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="running specified methods" verbose="3">
+    <test name="method">
+       <classes>
+           <class name="tests.practice_smokeTest.NegativeLoginTest">
+               <methods>
+                   <include name="falsePassword">
+
+                   </include>
+               </methods>
+           </class>
+           <class name="tests.practice_notations.DependsOnMethods">
+               <methods>
+                   <exclude name="test03"></exclude>
+               </methods>
+           </class>
+           
+       </classes>
+
+
+    </test>
+
+
+</suite>

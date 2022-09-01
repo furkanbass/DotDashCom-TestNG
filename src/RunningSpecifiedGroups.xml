@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="running specified groups">
+    <test name="groups">
+        <groups>
+            <run>
+                <include name="group1"></include>
+            </run>
+        </groups>
+        <packages>
+            <package name="tests.practice_notations"></package>
+        </packages>
+    </test>
+</suite>
