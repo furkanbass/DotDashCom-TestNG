@@ -19,8 +19,6 @@ public class LoginPage {
     public WebElement loginButton;
 
     @FindBy(id = "flash")
-    public WebElement successMessage;
+    public WebElement Message;
 
-    @FindBy(xpath = "//*[contains(text(),'Your username is invalid!')]")
-    public WebElement failureMessage;
 }

@@ -14,4 +14,7 @@ public class DragDropPage {
 
     @FindBy(id="column-b")
     public WebElement columnB;
+
+    @FindBy(id="content")
+    public WebElement content;
 }

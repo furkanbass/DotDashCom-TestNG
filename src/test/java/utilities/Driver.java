@@ -51,6 +51,7 @@ public class Driver {
         if (driver!=null){
             driver.close();
             driver=null;
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         }
 
     }
